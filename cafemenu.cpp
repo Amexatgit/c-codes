@@ -21,7 +21,7 @@ case 3:
 cout<<" Thankyou for visiting ";
 break;
 default:
-cout<<"enter valid option";
+cout<<"enter valid option or try again";
     break;
 }
 return 0;
