@@ -16,7 +16,7 @@ int main() {
     std::map<char, int>::iterator it; 
     
     std::cout << "Character Frequencies (Alphabetical Order):" << std::endl;
-    for(auto it: freqMap) {
+    for(it = freqMap.begin(); it != freqMap.end(); ++it) {
         // it->first is the Key (char), it->second is the Value (int)
         std::cout << it->first << " : " << it->second << std::endl;
     }
